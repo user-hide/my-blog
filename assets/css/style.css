@@ -1,0 +1,331 @@
+/* Header */
+.header {
+    height: var(--height-header);
+}
+
+.header-wrapper {
+    padding: 0 40px;
+    line-height: var(--height-header);
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nav-logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-text-logo {
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: var(--dark-gray-color);
+    position: relative;
+}
+
+.nav-text-logo::after {
+    position: absolute;
+    content: "";
+    display: block;
+    border-left: 1px solid var(--border-color);
+    height: 40px;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+}
+
+.nav-list {
+    display: inline-flex;
+}
+
+.nav-list-item {
+    margin-left: 18px;
+}
+
+.nav-list-item-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--text-two-color);
+}
+
+.nav-list-item-link:hover {
+    color: var(--text-one-color);
+}
+
+.nav-subscribe {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 10px 4px;
+    border-radius: 999px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.nav-subscribe:hover {
+    opacity: 0.9;
+}
+
+.nav-subscribe-icon {
+    font-size: 2rem;
+    position: relative;
+    top: 4px;
+    right: -2px;
+}
+
+/* Container */
+.container {
+    padding-top: 60px;
+}
+
+.container-wrapper {
+    padding: 0 40px;
+}
+
+/* Hedaer post */
+.post-header {
+    margin-bottom: 20px;
+}
+
+.post-header-heading {
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 3.2rem;
+    margin-bottom: 10px;
+}
+
+.post-header-heading-link {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+.post-header-heading-link:hover {
+    color: var(--blue-color);
+}
+
+.post-header-time {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--text-one-color);
+}
+
+.post-time-date {
+    position: relative;
+    margin-right: 14px;
+}
+
+.post-time-date::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: var(--text-one-color);
+    border-style: solid;
+    background-color: var(--text-one-color);
+}
+
+/* Content post */
+.post-content-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.65;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: var(--text-two-color);
+}
+
+/* Footer post */
+.post-main {
+    margin-bottom: 75px;
+}
+
+.post-footer {
+    margin-top: 30px;
+    border-top: 1px solid var(--border-color);
+}
+
+.post-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.post-footer-read-wrapper {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.post-footer-read-link {
+    text-decoration: none;
+    margin-right: 15px;
+    color: var(--dark-gray-color);
+}
+
+.post-footer-read-link--active {
+    color: var(--blue-color);
+}
+
+.post-footer-read-icon {
+    font-size: 1.4rem;
+    position: relative;
+    top: 2px;
+}
+
+.post-footer-creator {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.post-footer-creator-user {
+    color: var(--text-one-color);
+}
+
+.post-footer-creator-user-link {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+/* Container search */
+.container-search {
+    padding-left: 20px;
+    margin-bottom: 75px;
+}
+
+.container-search-heading {
+    margin-bottom: 16px;
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 3.2rem;
+}
+
+.container-search-input {
+    display: flex;
+    align-items: center;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.container-search-input-text {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    color: var(--text-two-color);
+    padding: 6px;
+}
+
+.container-search-icon {
+    cursor: pointer;
+    font-size: 2.2rem;
+    color: var(--text-two-color);
+    padding: 0 6px;
+}
+
+/* Topics container */
+.container-topic {
+    padding-left: 20px;
+}
+
+.container-topic-heading {
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 3.2rem;
+    margin-bottom: 16px;
+}
+
+.container-topic-list-item {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 2.2;
+    display: flex;
+    align-items: center;
+}   
+
+.container-topic-list-icon {
+    color: var(--blue-color);
+    margin-right: 12px;
+    font-size: 2rem;
+}
+
+.container-topic-list-item-link {
+    text-decoration: none;
+    color: var(--text-two-color);
+}
+
+.container-topic-list-item-link:hover {
+    color: var(--text-one-color);
+}
+
+/* Pagination container */
+.container-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.container-pagination-left {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+.container-pagination-left-text {
+    margin-left: 8px;
+}
+
+.container-pagination-center {
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-one-color);
+}
+
+.container-pagination-right {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+.container-pagination-right-text {
+    margin-right: 8px;
+}
+
+.container-pagination-icon {
+    color: var(--text-one-color);
+}

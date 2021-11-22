@@ -3,6 +3,7 @@
     --text-two-color: #333;
     --dark-gray-color: #1A1A1A;
     --blue-color: #49A8E4;
+    --white-color: #FFF;
     --border-color: #D9D9D9;
 
     --height-header: 100px;
@@ -15,6 +16,6 @@
 html {
     box-sizing: border-box;
     line-height: 1.6rem;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
 }
